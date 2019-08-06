@@ -154,6 +154,10 @@ DepDescs = [
                    {tag, "3.1.1-RC2"}, [raw]},
 {fauxton,          {url, "https://github.com/apache/couchdb-fauxton"},
                    {tag, "v1.2.6"}, [raw]},
+%%
+{weatherreport,    {url, "https://github.com/cloudant/weatherreport.git"},
+                   {branch, "45918-pluggable-storage-engines"}}, % FIXME with proper tag
+>>>>>>> Include weatherreport dependency
 %% Third party deps
 {folsom,           "folsom",           {tag, "CouchDB-0.8.3"}},
 {hyper,            "hyper",            {tag, "CouchDB-2.2.0-6"}},
